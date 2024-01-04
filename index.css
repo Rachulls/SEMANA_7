@@ -13,18 +13,18 @@ body{
     padding-top: 2rem;
 }
 
-.footer_container{
+.footer__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem 1rem;
     padding-left: 5rem;
 }
 
-.footer_contain{
+.footer__contain{
     margin-bottom: 2rem;
 }
 
-.footer_head{
+.footer__title{
     margin: 0;
     color: white;
 }
@@ -33,27 +33,23 @@ h3{
     font-size: 2rem;
 }
 
-.footer_txt, .footer_link{
+.footer__txt, .footer__link{
     width: 30%;
     line-height: 1.8;
     color: white;
     text-decoration: none;
 }
 
-.footer_nav, .footer_txt{
+.footer__nav, .footer__txt{
     margin-top: 2rem;
 } 
 
-.footer_nav{
+.footer__nav{
     display: flex;
     flex-direction: column;
 }
 
-.footer_contain.footer__widget:last-of-type {
-    margin-bottom: 0;
-}
-
-.footer_derechos{
+.footer__derechos{
     background-color: #548647;
     color: white;
     margin: 0;
@@ -62,14 +58,14 @@ h3{
 }
 
 @media (max-width: 700px){
-    .footer_container{
+    .footer__container{
         flex-direction: column;
         height: auto;
         display: flex;
         align-items: flex-start;
     }
     
-    .footer_txt, .footer_link{
+    .footer__txt, .footer__link{
         width: 90%
     }
 }
